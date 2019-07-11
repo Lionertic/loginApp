@@ -3,12 +3,17 @@
 namespace App\Http\Controllers\Api\Auth;
 
 use App\User;
+use Illuminate\Auth\Events\Registered;
+use Illuminate\Auth\Notifications\VerifyEmail;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Auth\MustVerifyEmail;
 
 class AuthController extends Controller
 {
+    use MustVerifyEmail;
     public function register(Request $request){
 
 //        $request->validate([
@@ -22,12 +27,13 @@ class AuthController extends Controller
 
         $user->name = $request->name;
         $user->email = $request->email;
-        $user->password = bcrypt($request->password);
+        $user->password = Hash::make($request->password);
 
         $user->save();
-        $accessToken = $user->createToken('authToken');
+        $user->sendApiEmailVerificationNotification();
+//        $accessToken = $user->createToken('authToken');
 
-        return response(['user'=>$user,'accessToken'=>$accessToken]);
+        return response(['user'=>$user,'accessToken'=>'']);
 
     }
 
@@ -42,6 +48,9 @@ class AuthController extends Controller
             return 'wrong user';
         }
 
+        if(!Auth::user()->email_verified_at){
+            return response(['user'=>Auth::user(),'accessToken'=>'']);
+        }
         $accessToken = Auth::user()->createToken('authToken');
 
         return response(['user'=>Auth::user(),'accessToken'=>$accessToken]);
