@@ -11,10 +11,7 @@ RUN apk --update add wget \
   git \
   grep \
   build-base \
-  libmemcached-dev \
-  libmcrypt-dev \
   libxml2-dev \
-  imagemagick-dev \
   pcre-dev \
   libtool \
   make \
@@ -25,15 +22,9 @@ RUN apk --update add wget \
   supervisor \
   nodejs \
   nodejs-npm \
-  php-zip
+  libzip-dev
 
-RUN docker-php-ext-install mysqli mbstring pdo pdo_mysql tokenizer xml
-
-RUN pecl channel-update pecl.php.net \
-    && pecl install memcached \
-    && pecl install imagick \
-    && docker-php-ext-enable memcached \
-    && docker-php-ext-enable imagick
+RUN docker-php-ext-install mysqli pdo pdo_mysql tokenizer xml zip
 
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
@@ -47,6 +38,17 @@ COPY ./config_files/crontab/crontab /etc/cron.d/artisan-scheduler
 RUN crontab /etc/cron.d/artisan-scheduler
 RUN chmod 0644 /etc/cron.d/
 
+RUN chmod 0644 /var/www/html
+
+EXPOSE 9000
+
+ENTRYPOINT ["/usr/bin/supervisord"]
+
+#RUN pecl channel-update pecl.php.net \
+#    && pecl install memcached \
+#    && pecl install imagick \
+#    && docker-php-ext-enable memcached \
+#    && docker-php-ext-enable imagick
 #RUN echo http://dl-2.alpinelinux.org/alpine/edge/community/ >> /etc/apk/repositories
 
 #RUN apk --no-cache add shadow
@@ -54,12 +56,4 @@ RUN chmod 0644 /etc/cron.d/
 #RUN usermod -u 1000 www-data
 
 #COPY --chown=www-data:www-data . /var/www/html
-
-RUN chmod 0644 /var/www/html
-
 #USER www-data
-
-EXPOSE 9000
-
-ENTRYPOINT ["/usr/bin/supervisord"]
-

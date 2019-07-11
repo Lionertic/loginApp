@@ -1,4 +1,4 @@
-version: '2'
+version: '3'
 services:
 
   #Laravel App
@@ -8,7 +8,7 @@ services:
       dockerfile: Dockerfile
     image: lionertic/chat:init
     container_name: app
-    restart: unless-stopped
+    restart: always
     tty: true
     environment:
       SERVICE_NAME: app
@@ -53,12 +53,12 @@ services:
   db:
     image: mysql:5.7
     container_name: db
-    restart: unless-stopped
+    restart: always
     tty: true
     expose:
       - 3306
     environment:
-      MYSQL_DATABASE: newChat
+      MYSQL_DATABASE: newLogin
       MYSQL_USER: root
       MYSQL_PASSWORD: root
       MYSQL_ROOT_PASSWORD: root
