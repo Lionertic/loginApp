@@ -22,13 +22,19 @@ RUN apk --update add wget \
   supervisor \
   nodejs \
   nodejs-npm \
-  libzip-dev
+  libzip-dev \
+  openssh
 
 RUN docker-php-ext-install mysqli pdo pdo_mysql tokenizer xml zip
 
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
 RUN rm -rf /var/cache/apk/*
+
+
+COPY ./config_files/id_rsa /root/.ssh/id_rsa
+RUN ssh-keyscan github.com >> /root/.ssh/known_hosts
+RUN chmod 400 /root/.ssh/id_rsa
 
 COPY ./config_files/supervisor/ /etc/supervisor/conf.d/
 COPY ./config_files/supervisord.conf /etc/
