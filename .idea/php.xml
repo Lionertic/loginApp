@@ -98,6 +98,15 @@
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
       <path value="$PROJECT_DIR$/vendor/laravel/passport" />
       <path value="$PROJECT_DIR$/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/vendor/mobiledetect/mobiledetectlib" />
+      <path value="$PROJECT_DIR$/vendor/jenssegers/agent" />
+      <path value="$PROJECT_DIR$/vendor/jaybizzle/crawler-detect" />
     </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings load_method="CUSTOM_LOADER" configuration_file_path="$PROJECT_DIR$/phpunit.xml" custom_loader_path="$PROJECT_DIR$/vendor/autoload.php" use_configuration_file="true" />
+    </phpunit_settings>
   </component>
 </project>
