@@ -4,12 +4,6 @@
     <list default="true" id="a981a72e-5449-4826-bce2-3b6ba4a13557" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config_files/nginx/vhost.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config_files/nginx/vhost.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config_files/supervisor/crontab-artisan-scheduler.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config_files/supervisor/crontab-artisan-scheduler.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config_files/supervisor/php-fpm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config_files/supervisor/php-fpm.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config_files/supervisor/queue-worker-email.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config_files/supervisor/queue-worker-email.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config_files/supervisord.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config_files/supervisord.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/supervisord.log" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+            <state relative-caret-position="374">
+              <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -66,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config_files/nginx/vhost.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+            <state relative-caret-position="153">
+              <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -88,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/config_files/supervisor/queue-worker-email.conf">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="69" lean-forward="true" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="69" />
+              <caret line="7" column="69" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -98,9 +92,18 @@
           <provider selected="true" editor-type-id="LogFileEditorProvider" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/storage/logs/supervisord/email/out.log">
           <provider selected="true" editor-type-id="LogFileEditorProvider" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -150,16 +153,16 @@
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/routes/api.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.env.example" />
         <option value="$PROJECT_DIR$/Dockerfile-phpmyadmin" />
-        <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/storage/logs/supervisord.log" />
-        <option value="$PROJECT_DIR$/config_files/nginx/vhost.conf" />
         <option value="$PROJECT_DIR$/config_files/supervisord.conf" />
         <option value="$PROJECT_DIR$/config_files/supervisor/crontab-artisan-scheduler.conf" />
         <option value="$PROJECT_DIR$/config_files/supervisor/php-fpm.conf" />
         <option value="$PROJECT_DIR$/config_files/supervisor/queue-worker-email.conf" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/config_files/nginx/vhost.conf" />
       </list>
     </option>
   </component>
@@ -298,6 +301,12 @@
               <item name="loginApp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="D:\Projects\loginApp" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="config_files" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="nginx" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="loginApp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\Projects\loginApp" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="config_files" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="supervisor" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -362,6 +371,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\loginApp\config_files\nginx" />
+      <recent name="D:\Projects\loginApp\config_files\nginx\conf.d" />
       <recent name="D:\Projects\loginApp\storage\logs\nginx" />
     </key>
   </component>
@@ -401,12 +412,13 @@
       <workItem from="1562983581189" duration="676000" />
       <workItem from="1563029908356" duration="3885000" />
       <workItem from="1563101026069" duration="10000" />
-      <workItem from="1563101053053" duration="323000" />
+      <workItem from="1563101053053" duration="701000" />
+      <workItem from="1563122750515" duration="949000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30975000" />
+    <option name="totallyTimeSpent" value="32302000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -419,8 +431,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20309168" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20522387" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -433,7 +446,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.29698858" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.29698858" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -648,13 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -682,41 +688,6 @@
     <entry file="file://$PROJECT_DIR$/storage/logs/error.log" />
     <entry file="file://$PROJECT_DIR$/storage/logs/access.log" />
     <entry file="file://$PROJECT_DIR$/storage/logs/supervisord.log" />
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/logs/laravel.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="44047">
-          <caret line="2591" column="1063" selection-start-line="2591" selection-start-column="1063" selection-end-line="2591" selection-end-column="1063" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config_files/nginx/vhost.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/storage/logs/supervisord/artisan-scheduler/error.log">
       <provider selected="true" editor-type-id="LogFileEditorProvider" />
     </entry>
@@ -727,13 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="81" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config_files/supervisord.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -750,10 +714,31 @@
     <entry file="file://$PROJECT_DIR$/storage/logs/supervisord/php-fpm/out.log">
       <provider selected="true" editor-type-id="LogFileEditorProvider" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/storage/logs/laravel.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="44047">
+          <caret line="2591" column="1063" selection-start-line="2591" selection-start-column="1063" selection-end-line="2591" selection-end-column="1063" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config_files/supervisord.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config_files/supervisor/queue-worker-email.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="69" lean-forward="true" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="69" />
+          <caret line="7" column="69" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="69" />
         </state>
       </provider>
     </entry>
@@ -762,6 +747,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/storage/logs/supervisord/email/out.log">
       <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config_files/nginx/vhost.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
