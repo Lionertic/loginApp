@@ -17,7 +17,7 @@ services:
     volumes:
       - ./:/var/www/html
     networks:
-      - mynet
+      - backend
 
   #Nginx Service
   nginx:
@@ -31,7 +31,8 @@ services:
       - ./:/var/www/html
       - ./config_files/nginx/:/etc/nginx/conf.d/
     networks:
-      - mynet
+      - frontend
+      - backend
 
   #Flask Service
   flask:
@@ -47,7 +48,7 @@ services:
     expose:
       - 80
     networks:
-      - mynet
+      - backend
 
   #MySQL Service
   db:
@@ -63,9 +64,9 @@ services:
       MYSQL_PASSWORD: root
       MYSQL_ROOT_PASSWORD: root
     volumes:
-      - chatdata:/var/lib/mysql/
+      - login:/var/lib/mysql/
     networks:
-      - mynet
+      - backend
 
   #PhpMyAdmin Service
   phpmyadmin:
@@ -74,21 +75,23 @@ services:
     restart: always
     depends_on:
       - db
-    ports:
-      - "8183:80"
+    expose:
+      - 80
     environment:
       - PMA_HOST=db
       - PMA_PORT=3306
     volumes:
       - /sessions
     networks:
-      - mynet
+      - backend
 
 #Docker Networks
 networks:
-  mynet:
+  frontend:
+    driver: bridge
+  backend:
     driver: bridge
 #Volumes
 volumes:
-  chatdata:
+  login:
     driver: local

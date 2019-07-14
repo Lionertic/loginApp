@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a981a72e-5449-4826-bce2-3b6ba4a13557" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config_files/nginx/vhost.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config_files/nginx/vhost.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config_files/supervisor/crontab-artisan-scheduler.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config_files/supervisor/crontab-artisan-scheduler.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config_files/supervisor/php-fpm.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config_files/supervisor/php-fpm.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config_files/supervisor/queue-worker-email.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config_files/supervisor/queue-worker-email.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config_files/supervisord.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config_files/supervisord.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/supervisord.log" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,31 +40,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/Auth/VerificationApiController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
-              <folding>
-                <element signature="e#49#62#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1360">
-              <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+            <state relative-caret-position="51">
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/api.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="19" selection-end-column="3" />
+        <entry file="file://$PROJECT_DIR$/storage/logs/laravel.log">
+          <provider selected="true" editor-type-id="LogFileEditorProvider">
+            <state relative-caret-position="44047">
+              <caret line="2591" column="1063" selection-start-line="2591" selection-start-column="1063" selection-end-line="2591" selection-end-column="1063" />
             </state>
           </provider>
         </entry>
@@ -72,56 +66,48 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.env.example">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config_files/nginx/vhost.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="119">
+              <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/config_files/supervisord.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            <state relative-caret-position="34">
+              <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
+        <entry file="file://$PROJECT_DIR$/config_files/supervisor/queue-worker-email.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="119">
+              <caret line="7" column="69" lean-forward="true" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="69" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/services.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="19" selection-end-column="65" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/storage/logs/supervisord/email/error.log">
+          <provider selected="true" editor-type-id="LogFileEditorProvider" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/storage/logs/supervisord/email/out.log">
+          <provider selected="true" editor-type-id="LogFileEditorProvider" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="187">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -164,10 +150,16 @@
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/routes/api.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/docker-compose.yml" />
-        <option value="$PROJECT_DIR$/config_files/nginx/vhost.conf" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.env.example" />
+        <option value="$PROJECT_DIR$/Dockerfile-phpmyadmin" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/storage/logs/supervisord.log" />
+        <option value="$PROJECT_DIR$/config_files/nginx/vhost.conf" />
+        <option value="$PROJECT_DIR$/config_files/supervisord.conf" />
+        <option value="$PROJECT_DIR$/config_files/supervisor/crontab-artisan-scheduler.conf" />
+        <option value="$PROJECT_DIR$/config_files/supervisor/php-fpm.conf" />
+        <option value="$PROJECT_DIR$/config_files/supervisor/queue-worker-email.conf" />
       </list>
     </option>
   </component>
@@ -289,12 +281,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
               <item name="loginApp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="D:\Projects\loginApp" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="loginApp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\Projects\loginApp" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="config_files" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="loginApp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\Projects\loginApp" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="config_files" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="supervisor" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="loginApp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -307,11 +311,41 @@
               <item name="storage" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="logs" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
+            <path>
+              <item name="loginApp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\Projects\loginApp" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="storage" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="logs" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="supervisord" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="loginApp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\Projects\loginApp" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="storage" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="logs" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="supervisord" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="artisan-scheduler" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="loginApp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\Projects\loginApp" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="storage" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="logs" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="supervisord" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="email" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="loginApp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="D:\Projects\loginApp" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="storage" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="logs" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="supervisord" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="php-fpm" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -325,6 +359,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\loginApp\storage\logs\nginx" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -359,18 +398,29 @@
       <workItem from="1562807208533" duration="1148000" />
       <workItem from="1562893032437" duration="2359000" />
       <workItem from="1562949512862" duration="3399000" />
-      <workItem from="1562983581189" duration="608000" />
+      <workItem from="1562983581189" duration="676000" />
+      <workItem from="1563029908356" duration="3885000" />
+      <workItem from="1563101026069" duration="10000" />
+      <workItem from="1563101053053" duration="323000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26689000" />
+    <option name="totallyTimeSpent" value="30975000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19669509" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20309168" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -379,11 +429,11 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32917964" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2357217" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.29698858" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -416,71 +466,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1384">
-          <caret line="176" selection-start-line="176" selection-end-line="176" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/league/oauth2-server/src/AuthorizationServer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2176">
-          <caret line="51" column="7" lean-forward="true" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/passport/src/Http/Controllers/AccessTokenController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-459">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/Auth/IssueTokenTrait.php" />
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/Auth/LoginController.php" />
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/Auth/RegisterController.php" />
-    <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="68" column="26" lean-forward="true" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="34" column="68" selection-start-line="34" selection-start-column="68" selection-end-line="34" selection-end-column="68" />
-          <folding>
-            <element signature="e#33#69#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Flask/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -502,13 +487,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/storage/logs/laravel.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="16">
-          <caret line="2178" column="4" selection-end-line="2374" />
         </state>
       </provider>
     </entry>
@@ -663,13 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/api.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -677,17 +648,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config_files/nginx/vhost.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="68">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -705,26 +669,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env.example">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        <state relative-caret-position="578">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile-phpmyadmin" />
+    <entry file="file://$PROJECT_DIR$/supervisord.pid" />
+    <entry file="file://$PROJECT_DIR$/supervisord.log" />
+    <entry file="file://$PROJECT_DIR$/storage/logs/error.log" />
+    <entry file="file://$PROJECT_DIR$/storage/logs/access.log" />
+    <entry file="file://$PROJECT_DIR$/storage/logs/supervisord.log" />
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/logs/laravel.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="44047">
+          <caret line="2591" column="1063" selection-start-line="2591" selection-start-column="1063" selection-end-line="2591" selection-end-column="1063" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config_files/nginx/vhost.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/logs/supervisord/artisan-scheduler/error.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/logs/supervisord/artisan-scheduler/out.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config_files/supervisor/crontab-artisan-scheduler.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="81" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config_files/supervisord.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config_files/supervisor/php-fpm.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/logs/supervisord/php-fpm/error.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/logs/supervisord/php-fpm/out.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config_files/supervisor/queue-worker-email.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="69" lean-forward="true" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/logs/supervisord/email/error.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storage/logs/supervisord/email/out.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
     </entry>
   </component>
 </project>
